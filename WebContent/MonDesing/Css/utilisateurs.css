@@ -1,0 +1,392 @@
+.espacaAdmin{
+    margin-top: 80px
+}
+.espacaAdmin .uk-card-title{
+    font-weight: bold;
+    color: #c6c8ca
+}
+.utilisateurs{
+    margin-top: 100px; 
+}
+.utilisateurs a {
+    color: #FFF;
+}
+
+.utilisateurs a:hover {
+    text-decoration: none;
+}
+
+.utilisateurs .admin{
+    background-color: #c51162;
+    color: #FFF;
+    padding: 20px;
+    cursor: pointer
+}
+.utilisateurs .admin:hover{
+    background-color: #f50057;
+    transition-duration: .8s;
+    border-radius: 50%
+}
+.utilisateurs .admin i{
+    font-size: 50px;
+    top: 35px;
+    left: 30px;
+
+}
+
+
+.utilisateurs .professeur{
+    background-color: #4a148c;
+    color: #FFF;
+    padding: 20px;
+    cursor: pointer
+}
+.utilisateurs .professeur:hover{
+    background-color: #6a1b9a;
+    transition-duration: .8s;
+    border-radius: 50%
+
+}
+.utilisateurs .professeur i{
+    font-size: 50px;
+    top: 35px;
+    left: 30px;
+
+}
+.utilisateurs .etudiant{
+    background-color: #311b92;
+    color: #FFF;
+    padding: 20px;
+    cursor: pointer
+}
+.utilisateurs .etudiant:hover{
+    background-color: #4527a0;
+    transition-duration: .8s;
+    border-radius: 50%
+
+}
+.utilisateurs .etudiant i{
+    font-size: 50px;
+    top: 35px;
+    left: 30px;
+}
+
+.utilisateurs .evenement{
+    background-color: #01579b;
+    color: #FFF;
+    padding: 20px;
+    cursor: pointer
+}
+.utilisateurs .evenement:hover{
+    background-color: #0277bd;
+    transition-duration: .8s;
+    border-radius: 50%
+
+}
+.utilisateurs .evenement i{
+    font-size: 50px;
+    top: 35px;
+    left: 30px;
+}
+.utilisateurs .activite{
+    background-color: #006064;
+    color: #FFF;
+    padding: 20px;
+    cursor: pointer
+}
+.utilisateurs .activite:hover{
+    background-color: #00838f;
+    transition-duration: .8s;
+    border-radius: 50%
+
+}
+.utilisateurs .activite i{
+    font-size: 50px;
+    top: 35px;
+    left: 30px;
+}
+.utilisateurs .emploisDeTemps{
+    background-color: #ff9800;
+    color: #FFF;
+    padding: 20px;
+    cursor: pointer
+}
+.utilisateurs .emploisDeTemps:hover{
+    background-color: #ffa726;
+    transition-duration: .8s;
+    border-radius: 50%
+
+}
+.utilisateurs .emploisDeTemps i{
+    font-size: 50px;
+    top: 35px;
+    left: 30px;
+}
+
+.utilisateurs .LesVacances{
+    background-color: #bf360c;
+    color: #FFF;
+    padding: 20px;
+    cursor: pointer
+}
+.utilisateurs .LesVacances:hover{
+    background-color: #d84315;
+    transition-duration: .8s;
+    border-radius: 50%
+
+}
+.utilisateurs .LesVacances i{
+    font-size: 50px;
+    top: 35px;
+    left: 30px;
+}
+
+.utilisateurs .filieres{
+    background-color: #2196f3;
+    color: #FFF;
+    padding: 20px;
+    cursor: pointer
+}
+.utilisateurs .filieres:hover{
+    background-color: #2196f3;
+    transition-duration: .8s;
+    border-radius: 50%
+
+}
+.utilisateurs .filieres i{
+    font-size: 50px;
+    top: 35px;
+    left: 30px;
+}
+
+.utilisateurs .autre{
+    background-color: #1b5e20;
+    color: #FFF;
+    padding: 20px;
+    cursor: pointer
+}
+.utilisateurs .autre:hover{
+    background-color: #2e7d32;
+    transition-duration: .8s;
+    border-radius: 50%
+
+}
+.utilisateurs .autre i{
+    font-size: 50px;
+    top: 35px;
+    left: 30px;
+}
+
+.ListeAdmin{
+    margin-top: 50px;;
+    font-size: 12px
+}
+.ListeAdmin .recherche{
+    background-color: #000;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: #FFF
+}
+.ListeAdmin .recherche .nombreAdmin{
+
+    margin-left: 5px
+}
+.ListeAdmin .recherche input{
+    border-radius: 0%
+}
+.ListeAdmin table tbody button{
+    font-size: 10px
+}
+.ListeAdmin table tbody td{
+    border-bottom: 1px solid #000;
+    vertical-align: middle;
+    padding: .3rem
+}
+.uk-button{ 
+    font-size: 12px;
+    margin: 0px
+}
+.ListeAdmin .uk-modal-dialog{
+    width: 200px
+}
+.formAjoute input,.formAjoute select{
+    border-radius: 0%;
+    font-size: 12px;
+    height: 30px
+}
+
+.formAjoute form  i {
+    height: 0px;
+    float: left;
+    position: relative;
+    top: -25px;
+    left: 5px;
+    color: #000;
+    font-size: 17px;
+    background-color: #222; 
+}
+.formAjoute form input{
+    padding-left: 30px;
+    outline-color: red
+
+}
+.modifierUtilisateur{
+    width: 500px;
+    margin: 50px auto;
+    border: 1px #000 solid;
+
+}
+.modifierUtilisateur form{
+
+    padding: 10px
+}
+.modifierUtilisateur input,.modifierUtilisateur select{
+    border-radius: 0%;
+    font-size: 12px;
+    height: 30px
+
+}
+.modifierUtilisateur form  i {
+    height: 0px;
+    float: left;
+    position: relative;
+    top: -25px;
+    left: 5px;
+    color: #000;
+    font-size: 17px;
+    background-color: #222; 
+}
+.modifierUtilisateur form input{
+    padding-left: 30px;
+    outline-color: red   
+}
+.modifierUtilisateur h1{
+    font-size: 20px;
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
+    margin-top: 0px
+}
+.informationAdmin{
+    font-size: 12px;
+}
+.informationAdmin input{
+    border-radius: 0%;
+    font-size: 12px;
+    height: 30px
+
+}
+
+
+
+.modifierMotDePasseAdmin{
+    margin: 30px auto;
+    width: 350px;
+    border: 1px #000 solid;
+    padding: 10px
+}
+.modifierMotDePasseAdmin input{
+    border-radius: 0%;
+    font-size: 12px;
+    height: 40px;
+
+}
+.modifierMotDePasseAdmin button{
+    border-radius: 0%;
+    font-size: 12px;
+    height: 40px;;
+    border: none
+
+}
+.modifierMotDePasseAdmin form  i {
+    height: 0px;
+    float: left;
+    position: relative;
+    top: -25px;
+    left: 5px;
+    color: #000;
+    font-size: 17px;
+    background-color: #222; 
+}
+.modifierMotDePasseAdmin form input{
+    padding-left: 30px;  
+}
+
+
+
+
+
+.modifierNomDeUtilisateur{
+    margin: 30px auto;
+    width: 350px;
+    border: 1px #000 solid;
+    padding: 10px
+}
+.modifierNomDeUtilisateur input{
+    border-radius: 0%;
+    font-size: 12px;
+    height: 40px;
+
+}
+.modifierNomDeUtilisateur button{
+    border-radius: 0%;
+    font-size: 12px;
+    height: 40px;;
+    border: none
+
+}
+.modifierNomDeUtilisateur form  i {
+    height: 0px;
+    float: left;
+    position: relative;
+    top: -25px;
+    left: 5px;
+    color: #000;
+    font-size: 17px;
+    background-color: #222; 
+}
+.modifierNomDeUtilisateur form input{
+    padding-left: 30px;  
+}
+
+
+
+
+
+.messageAdmin{
+    margin: 30px auto;
+    width: 350px;
+    border: 1px #000 solid;
+    padding: 10px
+}
+.messageAdmin input{
+    border-radius: 0%;
+    font-size: 12px;
+    height: 40px;
+
+}
+.messageAdmin button{
+    border-radius: 0%;
+    font-size: 12px;
+    height: 40px;;
+    border: none
+
+}
+.messageAdmin form  i {
+    height: 0px;
+    float: left;
+    position: relative;
+    top: -25px;
+    left: 5px;
+    color: #000;
+    font-size: 17px;
+    background-color: #222; 
+}
+.messageAdmin form input{
+    padding-left: 30px;  
+}
+.messageAdmin textArea{
+    border-radius: 0%;
+
+
+}

@@ -1,0 +1,14 @@
+.copyright{
+  background-color: #000 !important;
+  color: #FFF; 
+  position: fixed;
+  width: 100%;
+  bottom: 0px
+}
+.copyright .text-left{
+    text-align: left;
+    padding: 10px;
+    color: #fff;
+    font-size: 10px
+}
+
